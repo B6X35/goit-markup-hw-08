@@ -1,0 +1,15 @@
+.feature-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background: var(--bg-team-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .feature-icon {
+    width: 70px;
+    height: 70px;
+  }

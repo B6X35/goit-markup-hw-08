@@ -1,0 +1,61 @@
+/* ===================START GLOBAL============================================================================ */
+@import "./utils/_variables.scss";
+@import "./base/_container.scss";
+@import "./base/_section-padding.scss";
+@import "./base/_common.scss";
+@import "./utils/_visually-hidden.scss";
+/* ===================END GLOBAL============================================================================ */
+/* ===================START HEADER============================================================================ */
+@import "./layout/_header.scss";
+@import "./components/header/_logo.scss";
+@import "./components/header/_menu.scss";
+@import "./components/header/_contact_header.scss";
+/* ===================END HEADER============================================================================ */
+/* ===================START TITLE============================================================================ */
+@import "./themes/_title_bg.scss";
+@import "./layout/_title.scss";
+@import "./components/title/_button_title.scss";
+/* ===================END TITLE============================================================================ */
+/* ===================START FEATURE============================================================================ */
+@import "./layout/_feature.scss";
+@import "./components/feature/_feature_icon.scss";
+@import "./components/feature/_feature_text.scss";
+/* ===================END FEATURE============================================================================ */ 
+/* ===================START IMG WORK============================================================================ */
+@import "./layout/_img_work.scss";
+@import "./components/img_work/_subject_img.scss";
+@import "./components/img_work/_subject_img-name.scss";
+/* ===================END IMG WORK============================================================================ */
+/* ===================START TEAM============================================================================ */
+@import "./layout/_team.scss";
+@import "./themes/_team_bg.scss";
+@import "./components/team/_team_text.scss";
+@import "./components/team/_team_position.scss";
+@import "./components/team/_team_card.scss";
+/* ===================END TEAM============================================================================ */
+/* ===================START CLIENT============================================================================ */
+@import "./layout/_client.scss";
+@import "./components/client/_client_position.scss";
+@import "./components/client/_client_card.scss";
+/* ===================END CLIENT============================================================================ */
+/* ===================START PORTFOLIO============================================================================ */
+@import "./components/portfolio/_portfolio_button.scss";
+@import "./components/portfolio/_portfolio_card.scss";
+@import "./components/portfolio/_portfolio_card_text.scss";
+/* ===================END PORTFOLIO============================================================================ */
+/* ===================START FOOTER============================================================================ */
+@import "./layout/_footer.scss";
+@import "./components/footer/_footer_logo.scss";
+@import "./components/footer/_footer_position.scss";
+@import "./components/footer/_footer_address.scss";
+@import "./components/footer/_footer_social.scss";
+@import "./components/footer/_footer_mail.scss";
+/* ===================END FOOTER============================================================================ */
+/* ===================START MODAL============================================================================ */
+@import "./layout/_modal.scss";
+@import "./components/modal/_modal_title.scss";
+@import "./components/modal/_modal_input.scss";
+@import "./components/modal/_modal_mes.scss";
+@import "./components/modal/_modal_checkbox.scss";
+@import "./components/modal/_modal_buttons.scss";
+/* ===================END MODAL============================================================================ */

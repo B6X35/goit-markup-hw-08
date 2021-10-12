@@ -1,0 +1,34 @@
+.contact2 {
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    color: var(--contact-color);
+    text-align: center;
+  }
+  
+  .contact2:focus,
+  .contact2:hover {
+    color: var(--active-1-color);
+  }
+  
+  .address {
+    display: flex;
+    font-style: normal;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .address-p {
+    display: inline;
+  }
+
+@media screen and (min-width: 1200px) {
+  .address {
+    margin: 0;
+  }
+
+  .contact2 {
+    text-align: start;
+  }
+}

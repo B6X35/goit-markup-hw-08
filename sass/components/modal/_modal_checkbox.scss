@@ -1,0 +1,81 @@
+.modal-checkbox {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .modal-checkbox-text {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--description-color);
+  }
+  
+  .modal-checkbox-text::before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+    border: 1px solid var(--normal-color);
+  }
+  
+  .modal-checkbox-text-a {
+    display: inline;
+    height: 14px;
+    width: 346px;
+    color: var(--active-1-color);
+  }
+  
+  .modal-checkbox-input {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+  }
+  
+  .modal-icon-checkbox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2px;
+    width: 11px;
+    height: 8px;
+    fill: var(--white-text-color);
+    cursor: pointer;
+  }
+  
+  .modal-checkbox-input:checked + .modal-checkbox-text::before {
+    background-color: var(--active-1-color);
+    border: 1px solid var(--active-1-color);
+  }
+  
+  .modal-checkbox-input:focus + .modal-checkbox-text::before {
+    outline: 1px solid var(--active-1-color);
+  }
+
+  .modal-checkbox-text-size{
+    font-size: 12px;
+    height: 14px;
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .modal-icon-checkbox {
+      left: 17px;
+    }
+
+    .modal-checkbox-text-size {
+      font-size: 14px;
+      height: 24px;
+      margin-top: 8px;
+      letter-spacing: 0.03em;
+    }
+
+    .modal-checkbox-text-a {
+      height: 24px;
+      width: 400px;
+    }
+  }

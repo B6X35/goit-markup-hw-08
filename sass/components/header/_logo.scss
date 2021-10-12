@@ -1,0 +1,21 @@
+.logo1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--active-1-color);
+  display: inline-block;
+}
+
+.logo2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--background-color);
+  display: inline-block;
+}
+
+.logo2:visited {
+  color: var(--background-color);
+}
